@@ -1,0 +1,256 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: hsl(0, 0%, 98%);
+  font-size: 15px;
+}
+
+.firstTxt {
+  font-size: 30px;
+  margin-bottom: -3%;
+  color: rgba(0, 0, 0, 0.732);
+  text-align: center;
+}
+.secondText {
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: rgba(0, 0, 0, 0.642);
+  text-align: center;
+}
+.text {
+  margin-left: 30vw;
+
+  height: 28vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 30vw;
+}
+.mySpan {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.579);
+}
+.mainContainer {
+  display: flex;
+
+  width: 100%;
+  height: 66vh;
+
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.card1 {
+  background-color: white;
+  width: 45vw;
+  height: 35vh;
+  margin-left: 10vw;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  border-radius: 5%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.blueColor {
+  width: 100%;
+  height: 2%;
+  background-color: hsl(180, 62%, 55%);
+}
+.redColor {
+  width: 100%;
+  height: 2%;
+  background-color: hsl(0, 78%, 62%);
+}
+.orangeColor {
+  width: 100%;
+  height: 2%;
+  background-color: hsl(34, 97%, 64%);
+}
+.darkBlueColor {
+  width: 100%;
+  height: 2%;
+  background-color: hsl(212, 86%, 64%);
+}
+.twoCardsTogheter {
+  width: 75%;
+  height: 64vh;
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+  align-items: center;
+}
+.card2 {
+  background-color: white;
+  width: 60%;
+  height: 100%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  border-radius: 5%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.card3 {
+  background-color: white;
+  width: 60%;
+  height: 100%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  border-radius: 5%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.card4 {
+  background-color: white;
+  width: 45vw;
+  height: 35vh;
+  margin-right: 10vw;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  border-radius: 5%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.supervisor {
+  margin-left: 3vw;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.789);
+  font-size: 20px;
+}
+.suprivisonSpan {
+  margin-left: 3vw;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.385);
+}
+.superImg {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+}
+.superImg img {
+  width: 5vw;
+  height: 10vh;
+  margin-right: 2vw;
+}
+.Builder {
+  margin-left: 3vw;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.789);
+  font-size: 20px;
+}
+.BuilderSpan {
+  margin-left: 3vw;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.385);
+}
+.builderImg {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+}
+.builderImg img {
+  margin-right: 2vw;
+}
+.karma {
+  margin-left: 3vw;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.789);
+  font-size: 20px;
+}
+.karmaSpan {
+  margin-left: 3vw;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.385);
+}
+.karmaImg {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+}
+.karmaImg img {
+  margin-right: 2vw;
+}
+.calculator {
+  margin-left: 3vw;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.789);
+  font-size: 20px;
+}
+.calculatorSpan {
+  margin-left: 3vw;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.385);
+}
+.calculatorImg {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+}
+.calculatorImg img {
+  margin-right: 2vw;
+}
+@media screen and (max-width: 375px) {
+  footer {
+    display: none;
+  }
+  .firstTxt {
+    font-size: 14px;
+    width: 90vw;
+  }
+  .secondText {
+    font-size: 17px;
+    width: 90vw;
+  }
+  .mySpan {
+    font-size: 17px;
+
+    width: 90vw;
+  }
+  .mainContainer {
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+  }
+  .card1 {
+    margin-right: 10vw;
+    width: 100vw;
+    height: 35vh;
+  }
+  .superImg img {
+    width: 15vw;
+    height: 5vh;
+    margin-bottom: 5vh;
+  }
+  .card2 {
+    width: 100vw;
+    height: 25vh;
+  }
+  .card3 {
+    width: 100vw;
+    height: 20vh;
+  }
+  .card4 {
+    width: 100vw;
+    height: 35vh;
+    margin-left: 10vw;
+  }
+}
